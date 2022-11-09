@@ -1,0 +1,71 @@
+// `xxl` applies to x-large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+
+}
+// `xl` applies to large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+
+}
+// `lg` applies to medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+	.header{
+		margin: 0 20px 0 20px;
+	}
+	.promo__wrapper{
+		margin-right: 20px;
+	}
+	.benefits__descr{
+		margin: 40px 10px 0 10px;
+	}
+	.benefits__wrapper {
+		margin: 0 10px 0 10px;
+	}
+}
+// `md` applies to small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+
+}
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+	.header{
+		&__logo{
+			width: 190px;
+			img{
+				width: 100%;
+			}
+		}
+		&__official {
+			font-size: 12px;
+			span{
+				font-size: 15px;
+			}
+		}	
+		&__phone{
+			font-size: 15px;
+		}
+	}
+	.button{
+		font-size: 10px;
+		width: 130px;
+		height: 30px;
+		&_main{
+			margin-top: 67px;
+			width: 225px;
+			height: 50px;	
+			font-size: 14px;
+		}
+	}
+	.promo__link{
+		font-size: 15px;
+		a{
+			font-size: 14px;
+		}
+	}
+}
+
+
+
+
+
+
+

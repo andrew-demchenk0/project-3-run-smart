@@ -1,0 +1,36 @@
+* {
+  font-family: "MuseoSansCyrl-300", "MuseoSansCyrl-500", "MuseoSansCyrl-700" sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url(../../img/main-bg.png) center center/cover no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  width: 250px;
+}
+.header__logo img {
+  width: 100%;
+}
+.header__official {
+  font-weight: 500;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.header__official span {
+  display: block;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */

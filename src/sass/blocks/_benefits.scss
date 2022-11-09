@@ -1,0 +1,33 @@
+.benefits{
+    padding: 73px 0 65px 0;
+    &__header{
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__descr{
+        margin-top: 60px;
+    }
+    &__icon{
+        display: block;
+        margin: 0 auto;
+    }
+    &__text{
+        text-align: center;
+        max-width: 280px;
+        font-weight: 300;
+        font-size: 14px;
+        span{
+            display: block;
+            text-align: center;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            font-size: 18px;
+        }
+    }
+}
