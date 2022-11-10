@@ -79,7 +79,69 @@
 	}
 }
 
-
+@media (max-width: 319.98px){
+	.header{
+		flex-direction: column;
+		&__logo{
+			width: 250px;
+			margin-bottom: 10px;
+		}
+		&__official {
+			font-size: 15px;
+			margin-bottom: 10px;
+			span{
+				font-size: 17px;
+			}
+		}	
+		&__phone{
+			font-size: 20px;
+			margin-bottom: 5px;
+		}
+		.button{
+			font-size: 14px;
+			width: 170px;
+			height: 40px;
+		}
+	}
+	.promo{
+		&__header{
+			font-size: 35px;
+			text-align: center;
+		}
+		&__subheader{
+			font-size: 22px;
+			text-align: center;
+		}
+		&__icons{
+			width: max-content;
+		}
+		&__icon{
+			width: 93px;
+			font-size: 12px;
+		}
+	}
+	.benefits{
+		&__wrapper{
+			flex-direction: column;
+		}
+	}
+	.consultation{
+		.consultation__title{
+			font-weight: 700;
+			font-size: 28px;
+			line-height: 35px;	
+			text-align: center;		
+		}
+		.consultation__descr{
+			text-align: center;
+			font-size: 15px;
+		}
+		.feed-form{
+			width: 250px;
+			margin: 20px auto;
+		}
+	}		
+}
 
 
 
