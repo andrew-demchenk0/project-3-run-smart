@@ -20,6 +20,17 @@
 	.benefits__wrapper {
 		margin: 0 10px 0 10px;
 	}
+	.feed-form {
+		margin: 36px 20px;
+	}
+	.consultation__descr{
+		margin-left: 20px;
+	}
+	.consultation{
+		.title{
+			margin-left: 20px;
+		}
+	} 
 }
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {
@@ -60,6 +71,11 @@
 		a{
 			font-size: 14px;
 		}
+	}
+	.button_submit{
+		width: 100%;
+		height: 50px;
+		font-size: 15px;
 	}
 }
 
