@@ -30,10 +30,18 @@
 		.title{
 			margin-left: 20px;
 		}
-	} 
+	}
+	.carousel{
+		.prev{
+			display: none;
+		}
+		.next{
+			display: none;
+		}
+	}
 }
 // `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {
+@media (max-width: 767.98px) {	
 
 }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
@@ -77,9 +85,17 @@
 		height: 50px;
 		font-size: 15px;
 	}
+	.carousel{
+		.tns-item{
+			
+			img{
+				width: 100%;
+			}
+		}
+	}
 }
 
-@media (max-width: 319.98px){
+@media (max-width: 320.98px){
 	.header{
 		flex-direction: column;
 		&__logo{
@@ -140,7 +156,12 @@
 			width: 250px;
 			margin: 20px auto;
 		}
-	}		
+	}
+	.catalog{
+		&__tabs{
+			flex-direction: column;
+		}	
+	}	
 }
 
 
