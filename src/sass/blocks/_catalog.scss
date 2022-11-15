@@ -1,0 +1,110 @@
+.catalog{
+    padding-bottom: 100px;
+    &__tabs{
+        margin-top: 70px;
+        list-style-type: none;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 46px 10px;
+		margin-bottom: 0;
+		padding-left: 0;
+    }
+    &__tab{
+		cursor: pointer;
+		transition: 0.4s all;
+		margin: 0 5px;
+        width: 222px;
+        height: 52px;
+        background: rgba(0, 0, 0, 0.0001);
+        border: 4px solid #D0D0D0;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+		line-height: 48px;
+        text-transform: uppercase;
+        color: #6B6B6B;
+		transform: skewX(-25deg);
+		&:hover{
+			box-shadow: 3px 3px 10px $main-color;
+			border: none;
+		}
+		div{
+			transform: skewX(25deg);
+		}
+		&_active{
+			color: $white-color;
+			background-color: $main-color;
+			border: none;
+		}
+    }
+	.title{
+		font-weight: 400;
+		font-size: 30px;
+		text-align: center;
+		text-transform: uppercase;
+		color: #0D0D0D;
+	}
+	&__content{
+		margin-top: 60px;
+	}
+	&-item{
+		padding: 20px 20px 26px 20px;
+		width: 303px;
+		min-height: 442px;
+		border: 2px solid #E8E8E8;
+		&__img{
+			max-width: 100%;
+			height: 200px;
+			display: block;
+			margin: 0 auto;
+		}
+		&__subtitle{
+			font-weight: 700;
+			font-size: 16px;
+			text-align: center;
+			margin-top: 20px;
+			color: #0D0D0D;
+		}
+		&__descr{
+			margin-top: 16px;
+			font-weight: 300;
+			font-size: 14px;
+			text-align: center;
+			color: #0D0D0D;
+		}
+		&__link{
+			display: block;
+			font-weight: 500;
+			font-size: 14px;
+			margin-top: 16px;
+			text-align: center;
+			text-decoration-line: underline;
+			color: $main-color;
+			&:hover{
+				color: $main-color;
+			}
+		}
+		hr{
+			margin-top: 19px;
+			margin-bottom: 21px;
+			background: #E8E8E8;
+		}
+		&__footer{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		&__old-price{
+			font-weight: 300;
+			font-size: 14px;
+			text-decoration-line: line-through;
+			color: #555555;
+		}
+		&__price{
+			font-weight: 700;
+			font-size: 20px;
+			color: #050505;
+		}
+	}
+}
