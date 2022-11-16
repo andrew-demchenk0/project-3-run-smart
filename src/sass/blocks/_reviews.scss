@@ -1,0 +1,40 @@
+.reviews{
+    min-height: 920px;
+    padding-bottom: 48px;
+    &__title{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #0D0D0D;
+        margin-bottom: 60px;
+    }
+    &__wrapper{
+        display: flex;
+        margin-bottom: 60px;
+    }
+    &__photo{
+        width: 170px;
+        height: 170px;
+        margin-right: 60px;
+        margin-left: 5px;
+    }
+    &__name{
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__achievement{
+        font-weight: 500;
+        font-size: 14px;
+        color: #646464;
+        margin-bottom: 10px;
+    }
+    &__main-text{
+        max-width: 680px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+}

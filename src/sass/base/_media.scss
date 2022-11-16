@@ -42,7 +42,13 @@
 }
 // `md` applies to small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {	
-
+	.container{
+		padding: 0 20px 0 20px;
+	}
+	.consultation__title{
+		margin-left: 20px;
+	}
+	
 }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
@@ -162,9 +168,19 @@
 			flex-direction: column;
 		}	
 	}	
+	.reviews{
+		&__wrapper{
+			flex-direction: column;
+		}	
+	.reviews__photo{
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+		&__name{
+			text-align: center;
+		}
+		&__achievement{
+			text-align: center;
+		}	
+	}	
 }
-
-
-
-
-
