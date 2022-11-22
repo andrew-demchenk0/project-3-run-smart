@@ -101,7 +101,7 @@
 	}
 }
 
-@media (max-width: 320.98px){
+@media (max-width: 428.98px){
 	.header{
 		flex-direction: column;
 		&__logo{
@@ -148,6 +148,7 @@
 	.benefits{
 		&__wrapper{
 			flex-direction: column;
+			align-items: center;
 		}
 	}
 	.consultation{
