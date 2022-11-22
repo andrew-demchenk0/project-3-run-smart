@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="benefits__descr">
-                    <img class="benefits__icon" src="icons/2-heart.png" alt="heart">
+                    <img class="benefits__icon benefits__icon_animated" src="icons/2-heart.png" alt="heart">
                     <div class="benefits__text">
                         <span>Заботимся о здоровье</span>
                         Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!
@@ -100,7 +100,7 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
 			<div class="carousel__inner">
 				<div>
@@ -113,10 +113,10 @@
 					<img src="img/slide3.png" alt="slide3">
 				</div>
 			  </div>
-			<button type="button" class="prev"><img src="icons/left-solid.svg"></button>
-			<button type="button" class="next"><img src="icons/right-solid.svg"></button>
+			<button type="button" class="prev"><img src="icons/left-solid.svg" alt="left-solid"></button>
+			<button type="button" class="next"><img src="icons/right-solid.svg" alt="right-solid"></button>
 		</div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -427,7 +427,7 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <div class="reviews">
         <div class="container">
             <div class="reviews__title">отзывы клиентов</div>
             <div class="reviews__wrapper">
@@ -461,10 +461,10 @@
                     </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <footer class="footer">
-        <div class="footer__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315931104!3d55.76839498055754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1668599237221!5m2!1sru!2sua" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        <div class="footer__map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430481195992!2d37.644807315931104!3d55.76839498055754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1668599237221!5m2!1sru!2sua"></iframe></div>
 
         <div class="footer__info">
             <address class="footer__address">Москва, Мясницкий проезд, д.3с1</address>
@@ -509,8 +509,12 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <a href="#up" class="pageup">
+        <img src="icons/arrow-up.svg" alt="up">
+    </a>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/jquery.validate.min.js"></script>
