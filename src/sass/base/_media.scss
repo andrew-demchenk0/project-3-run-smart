@@ -1,12 +1,11 @@
-// `xxl` applies to x-large devices (large desktops, less than 1400px)
 @media (max-width: 1399.98px) {
 
 }
-// `xl` applies to large devices (desktops, less than 1200px)
+
 @media (max-width: 1199.98px) {
 
 }
-// `lg` applies to medium devices (tablets, less than 992px)
+
 @media (max-width: 991.98px) {
 	.header{
 		margin: 0 20px 0 20px;
@@ -23,14 +22,14 @@
 	.feed-form {
 		margin: 36px 20px;
 	}
-	.consultation__descr{
-		margin-left: 20px;
-	}
-	.consultation{
-		.title{
-			margin-left: 20px;
-		}
-	}
+	//.consultation__descr{
+	//	margin-left: 20px;
+	//}
+	//.consultation{
+	//	.title{
+	//		margin-left: 20px;
+	//	}
+	//}
 	.carousel{
 		.prev{
 			display: none;
@@ -40,25 +39,24 @@
 		}
 	}
 }
-// `md` applies to small devices (landscape phones, less than 768px)
-@media (max-width: 767.98px) {	
+@media (max-width: 767.98px) {
 	.container{
 		padding: 0 20px 0 20px;
 	}
-	.consultation__title{
-		margin-left: 20px;
-	}
+	//.consultation__title{
+	//	margin-left: 20px;
+	//}
 	.carousel{
 		.tns-item{
-			
+
 			img{
 				width: 100%;
 			}
 		}
 	}
-	
+
 }
-// `sm` applies to x-small devices (portrait phones, less than 576px)
+
 @media (max-width: 575.98px) {
 	.header{
 		&__logo{
@@ -72,7 +70,7 @@
 			span{
 				font-size: 15px;
 			}
-		}	
+		}
 		&__phone{
 			font-size: 15px;
 		}
@@ -84,7 +82,7 @@
 		&_main{
 			margin-top: 67px;
 			width: 225px;
-			height: 50px;	
+			height: 50px;
 			font-size: 14px;
 		}
 	}
@@ -114,7 +112,7 @@
 			span{
 				font-size: 17px;
 			}
-		}	
+		}
 		&__phone{
 			font-size: 20px;
 			margin-bottom: 5px;
@@ -155,8 +153,8 @@
 		.consultation__title{
 			font-weight: 700;
 			font-size: 28px;
-			line-height: 35px;	
-			text-align: center;		
+			line-height: 35px;
+			text-align: center;
 		}
 		.consultation__descr{
 			text-align: center;
@@ -170,12 +168,12 @@
 	.catalog{
 		&__tabs{
 			flex-direction: column;
-		}	
-	}	
+		}
+	}
 	.reviews{
 		&__wrapper{
 			flex-direction: column;
-		}	
+		}
 	.reviews__photo{
 		margin: 0 auto;
 		margin-bottom: 10px;
@@ -185,10 +183,11 @@
 		}
 		&__achievement{
 			text-align: center;
-		}	
+		}
 	}
 	.footer{
 		.footer__info{
+      padding: 40px;
 			width: 100%;
 			height: 300px;
 		}
