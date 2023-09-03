@@ -21,24 +21,6 @@ document.querySelector('.prev').addEventListener('click', function () {
 
 
 $(document).ready(function(){
-    // $('.carousel__inner').slick(
-    //     {
-    //         speed: 1000,
-    //         prevArrow: '<button type="button" class="slick-prev"><img src="icons/left-solid.svg"></button>',
-    //         nextArrow: '<button type="button" class="slick-next"><img src="icons/right-solid.svg"></button>',
-    //         responsive: [
-    //             {
-    //                 breakpoint: 768,
-    //                 settings: {
-    //                     arrows: false,
-    //                     dots: true,
-                    
-    //                 }
-    //             },
-    //         ]
-    //     }
-    // );
-
 	$('ul.catalog__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
         $(this)
           .addClass('catalog__tab_active').siblings().removeClass('catalog__tab_active')
@@ -133,9 +115,9 @@ $(document).ready(function(){
 
     $(window).scroll(function(){
         if($(this).scrollTop() > 1600){
-            $('.pageup').fadeIn();   
+            $('.pageup').fadeIn();
         } else {
-            $('.pageup').fadeOut();   
+            $('.pageup').fadeOut();
         }
     });
 
@@ -148,7 +130,7 @@ $(document).ready(function(){
           }, 800, function(){
             window.location.hash = hash;
           });
-        } 
+        }
     });
     new WOW().init();
 });
